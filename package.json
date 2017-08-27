@@ -1,0 +1,28 @@
+{
+  "name": "newsscraper",
+  "version": "1.0.0",
+  "description": "newsscraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjeon228/newsScraper.git"
+  },
+  "author": "sam jeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjeon228/newsScraper/issues"
+  },
+  "homepage": "https://github.com/sjeon228/newsScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.8",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}

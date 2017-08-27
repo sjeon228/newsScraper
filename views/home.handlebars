@@ -1,0 +1,16 @@
+<h2 class = 'articlesHeader'>Found Articles</h2>
+
+<div class="panel panel-default">
+    {{#each articles}}
+  <div class="panel-heading">
+    <h3 class="panel-title">{{this.title}}</h3>
+    <form action='/{{_id}}?_method=PUT' method='POST'>
+        <input type='hidden' name='saved' value='true'>
+        <button type='submit'>Save Article</button>
+    </form>
+  </div>
+  <div class="panel-body">
+    {{this.link}}
+  </div>
+  {{/each}}
+</div>
